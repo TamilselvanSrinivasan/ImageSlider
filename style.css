@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: lightgreen;
+}
+.main{
+    min-height: 70vh;
+    width: 60%;
+    border:8px solid rgb(253, 71, 71);
+    margin: 5em auto;
+    border-radius: 6px;
+    box-shadow:10px 10px 10px rgb(0,0,0,.6);
+    position:relative;
+    background: url("images/html.jpg") ;
+    transition: 1s ease-in;
+}
+.btn1{
+    position: absolute;
+    top: 50%;
+    background-color: lightgreen;
+    padding: 2%;
+    border-radius:2em;
+    transform: translateY(calc(-50%));
+    cursor: pointer;
+}
+.btn2{
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    background-color: lightgreen;
+    padding: 2%;
+    border-radius: 2em;
+    cursor: pointer;
+    transform: translateY(calc(-50%));
+}
